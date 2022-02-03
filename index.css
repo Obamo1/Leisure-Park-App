@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://www.hellomagazine.com/imagenes/travel/2019072475634/best-theme-parks-to-visit-uk/0-367-291/theme-park-t.webp?filter=high');
+  }
+  
+  button, input[type="text"] {
+    padding: 2px;
+    max-width:auto;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  li, img {
+    max-width: 500px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: lightgrey;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  #results {
+    color: black;
+    text-align: justify;
+  }
+
+  h1{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+  }
